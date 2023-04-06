@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.default-code{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: green;
+}
+nav{
+    font-family: fantasy;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    
+}
+
+.upper-menu{
+  min-height: 10vh;
+  padding: 2rem 0px;
+  display: flex;
+}
+
+.img-custom{
+height: 4rem;
+width: 4rem;
+border-radius: 50%;
+filter: saturate(0);
+transition: all .3s;
+
+}
+.img-custom:hover{
+    filter: saturate(1);
+}
+.upper-menu li{
+    list-style: none;
+}
+.upper-menu li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all .3s;
+    color: black;
+}
+.upper-menu li a:hover{
+  text-decoration: overline;
+  color: white;
+}
+
+.lower-menu{
+    background-color: #d2b8b8;
+    min-height: 10vh;
+
+}
+.lower-menu li{
+    list-style: none;
+}
+.lower-menu li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-family: 'fantasy';
+    letter-spacing: 1px;
+    transition: all .3s;
+    font-size: 22px;
+}
+.lower-menu li a:hover{
+    text-decoration: overline;
+}
+.design{
+    font-size: 2.1rem;
+}
+
+/* footer */
+
+.footer{
+    background-color: rgb(165, 235, 165);
+    min-height: 10vh;
+    padding: 2rem 0;
+}
+.subscribe label{
+    font-weight: bold;
+    color: rgb(236, 61, 61);
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+.subscribe input{
+    border: none;
+    padding: 8px 40px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btn{
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    
+}
+.btn:hover{
+    background-color: white;
+    font-weight: bold;
+}
+.footer-div{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+

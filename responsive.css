@@ -1,0 +1,14 @@
+
+@media (max-width: 560px){
+    .default-code{
+       flex-direction: column;
+       gap: 1.2rem;
+       font-size: 1.5rem;
+    }
+}
+@media (max-width: 400px){
+    .design{
+        font-size: 1.5rem;
+      
+    
+}
